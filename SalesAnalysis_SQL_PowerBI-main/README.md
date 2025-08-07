@@ -50,7 +50,7 @@ This project demonstrates how to clean, transform, and analyze sales data from a
 ## 📎 Dashboard Access
 
 - 👉 [Download Power BI Report (.pbix)](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix)  
-- 📸 [View Report Snapshot (.pdf)](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf)
+
 
 ---
 
