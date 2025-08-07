@@ -1,37 +1,63 @@
-# SalesAnalysis_SQL_PowerBI
+# Sales Data Analysis using SQL Server and Power BI
 
-### Setup
-- This project requires SQL Server (SQL Express), Power BI Desktop
-- We will work with backup Data Warehouse (DW) data and Lightweight (LT) data. Obtain data and restore following instructions from [here.](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms)
-- Compare DW and LT data to understand the difference between structured and unstructured data. We will primarily be working with Data Warehouse data.
-- Update Data Warehouse data using [sql script.](https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql)
+This project demonstrates how to clean, transform, and analyze sales data from a Data Warehouse using SQL Server and visualize the results through Power BI dashboards. It showcases end-to-end business intelligence development using AdventureWorks dataset.
 
-### Business Request & User Stories
-- Read the sample business request, demand overview & filled-out user stories to understand the problem we are trying to solve with Data Analysis and what we consider as a solution.
+---
 
-### Clean the Data using T-SQL
-- Understand the difference between FACT tables & Dimension tables.
-- Identify which tables in the data are of interest with the help of the Business Request form.
-- Choose which columns are of interest to export by preparing and transforming these columns in SQL using concepts such as: renaming columns, combining columns, commenting in SQL script, formatting of SQL statements, WHERE clause, ORDER BY, LEFT JOIN, CASE() function and ISNULL() function. 
+## ⚙ Environment Setup
 
-### Create Dashboard in Power BI
-- Load Data
-- Organize & Prepare Tables
-- Connect Tables for Data Model
-- Import Fact_Budget
-- Calculation Measures
-- Dashboard Design
-- Import Custom Visual
-- Measure Table
-- Pie Chart
-- Line Chart
-- Bar Charts
-- Map Graph
-- Top 10 Graphs
-- Gradient Bar Chart Color
-- Customer Details
-- Pivot Table
+- Tools Required: *SQL Server (Express edition)* and *Power BI Desktop*
+- Dataset: Uses backup files of *AdventureWorks Data Warehouse (DW)* and *Lightweight (LT)* versions.
+- Instructions to restore the databases can be found [here](https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms).
+- A comparison of DW and LT data is performed to highlight differences between structured and semi-structured datasets.
+- SQL scripts are used to update the data warehouse. [SQL Script](https://github.com/techtalkcorner/SampleDemoFiles/blob/master/Database/AdventureWorks/Update_AdventureWorksDW_Data.sql)
 
-### Dashboard
-- [Download the file](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix) and open in Power BI Desktop for interactive viewing.
-- [See a screenshot](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf) of the Dashboard in pdf.
+---
+
+## 📈 Business Context
+
+- A sample business requirement and corresponding user stories are reviewed to identify data needs and analytical goals.
+- Based on the scenario, key metrics and data tables are selected for building insights and dashboards.
+
+---
+
+## 🛠 Data Cleaning and Transformation (T-SQL)
+
+- Identification of relevant *fact* and *dimension* tables.
+- Data transformation using SQL operations such as:
+  - Renaming and combining columns
+  - SQL formatting and commenting
+  - Usage of WHERE, ORDER BY, LEFT JOIN, CASE, ISNULL
+- Columns of interest are exported after applying necessary transformations.
+
+---
+
+## 📊 Power BI Dashboard Creation
+
+- Loading cleaned data into Power BI
+- Preparing table structures and defining relationships for data modeling
+- Importing additional datasets like *Fact_Budget*
+- Creating calculated measures and KPIs
+- Designing visuals using:
+  - Bar, Line, and Pie charts
+  - Geo-maps
+  - Top 10 and Gradient Charts
+  - Custom visuals and Pivot tables
+  - Customer-wise details for business analysis
+
+---
+
+## 📎 Dashboard Access
+
+- 👉 [Download Power BI Report (.pbix)](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pbix)  
+- 📸 [View Report Snapshot (.pdf)](https://github.com/AsifRashid01/SalesAnalysis_SQL_PowerBI/blob/main/Sales%20Report.pdf)
+
+---
+
+## ✅ Summary
+
+This project walks through a complete data analysis pipeline – from raw data cleaning with T-SQL to interactive business dashboard creation using Power BI. It reflects real-world BI practices and delivers actionable insights through compelling visuals.
+
+---
+
+*Note*: This is a hands-on educational project and intended for academic or portfolio use.
